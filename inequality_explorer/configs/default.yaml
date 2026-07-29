@@ -1,0 +1,22 @@
+data:
+  start_year: 1990
+  end_year: 2023
+  output_dir: data
+  use_cache: true
+
+visualization:
+  color_scale: RdYlGn_r
+  animation_duration: 500
+  default_countries: [USA, CHN, BRA, IND, DEU, ZAF, JPN, NGA]
+  map_projection: natural earth
+
+analysis:
+  significance_level: 0.05
+  min_observations: 10
+  log_transform_gdp: true
+
+dashboard:
+  title: Global Economic Inequality Explorer
+  port: 8050
+  debug: true
+  host: 0.0.0.0
